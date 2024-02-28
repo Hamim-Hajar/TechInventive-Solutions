@@ -1,0 +1,117 @@
+html{
+    width: 100%;
+    
+}
+*{
+  margin: 0;
+
+}
+a:link, a:visited {
+    background-color: #513efa;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15;
+    border-radius: 3px;
+  }
+ a:hover, a:active {
+    background-color: rgb(137, 131, 224);
+  } 
+
+  .div{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    background-size: cover;
+    
+}
+.div>h4{
+  text-align: justify;
+}
+  #firsbutton{
+   width: auto;
+   height: 20px;
+   
+  }
+  
+  
+  .header{
+    background-image:url(sea1.jpg);
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    text-align: center;
+    color: rgb(254, 253, 253);
+  }
+  .header .email{
+    padding: auto;
+  align-items: center;
+  height: 25px;
+  width: 200px;
+  }
+  
+.header .btn{
+  background-color: #513efa;
+  color: #ffffff;
+  width: 80px;
+  height: 30px;
+}
+.header .bigtitle
+{
+  padding: 50px;
+}
+  h4{
+    size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+#tvpos{
+    background-size: cover;
+    width: auto;
+    height: 50px;
+    
+    
+}
+#basepos{
+    background-size: cover;
+    width: auto;
+    height: 50px;
+}
+#checkpos{
+    background-size: cover;
+    width: auto;
+    height: 50px;
+}
+
+
+#btn{
+  align-items: center
+}
+#child1{
+  background-color: transparent;
+  align-items: center;
+}
+
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.cards .card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto 50px;
+}
+
+
+
+
