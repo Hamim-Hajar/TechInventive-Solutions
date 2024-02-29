@@ -6,7 +6,8 @@ html{
   margin: 0;
 
 }
-a:link, a:visited {
+.div a:link,
+.div a:visited {
     background-color: #513efa;
     color: white;
     padding: 10px 20px;
@@ -16,7 +17,7 @@ a:link, a:visited {
     font-size: 15;
     border-radius: 3px;
   }
- a:hover, a:active {
+ .div a:hover, a:active {
     background-color: rgb(137, 131, 224);
   } 
 
@@ -26,22 +27,24 @@ a:link, a:visited {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     background-size: cover;
     
 }
 .div>h4{
   text-align: justify;
+  margin: 10px 100px 10px 70px;
 }
   #firsbutton{
    width: auto;
    height: 20px;
+    margin: 10px 50px 10px 10px;;
    
   }
   
   
   .header{
-    background-image:url(sea1.jpg);
+    background-image:url(/image/sea1.jpg);
     width: 100%;
     height: 350px;
     background-size: cover;
@@ -51,15 +54,18 @@ a:link, a:visited {
   .header .email{
     padding: auto;
   align-items: center;
-  height: 25px;
-  width: 200px;
+  height: 32px;
+  width:300px;
   }
   
 .header .btn{
   background-color: #513efa;
   color: #ffffff;
   width: 80px;
-  height: 30px;
+  height: 40px;
+  border: #513efa;
+  border-radius: 6px;
+ 
 }
 .header .bigtitle
 {
@@ -111,6 +117,35 @@ a:link, a:visited {
   flex-direction: column;
   margin: auto 50px;
 }
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer .icons{
+  display: flex;
+  gap: 20px;
+  margin-right: 5%;
+}
+.footer .icons img{
+  width: 30px;
+  height: 30px;
+}
+.footer .links{
+  display: flex;
+  gap: 20px;
+  margin-left: 5%;
+}
+
+.footer .links a{
+  color: #513efa;
+}
+
+
+
 
 
 
